@@ -1,0 +1,8 @@
+body{
+    background: #42C6CF;
+    background: radial-gradient(circle farthest-corner at center center, #42C6CF 0%, #795FCF 100%);
+    
+}
+h1{
+    text-align: center;
+}
