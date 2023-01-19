@@ -9,7 +9,7 @@ def index(request):
 
 def AllStudentDetails(request):
     try:
-        all_students = Student.object.all()
+        all_students = Student.objects.all()
     except:
         return HttpResponse('NOT FOUND', status = 404)
     if request.method == 'GET':
